@@ -54,6 +54,7 @@
 
 footer {
   width: 100%;
+<<<<<<< HEAD
   height: 1.3rem;
   background: #08635a;
   overflow: hidden;
@@ -63,14 +64,29 @@ footer {
 footer p {
   height: .34rem;
   line-height: .34rem;
+=======
+  height: auto;
+  background: #08635a;
+  overflow: hidden;
+  padding-top: .1rem;
+}
+
+footer p {
+  height: .5rem;
+  line-height: .36rem;
+>>>>>>> 06fd958b77a7174007b5c2192c806d9e6393e756
   text-align: center;
   color: #bcc7c6;
 }
 
 @media screen and (min-width: 768px) {
   footer {
+<<<<<<< HEAD
     height: 0.7rem;
     line-height: 0.7rem;
+=======
+    height: 0.5rem;
+>>>>>>> 06fd958b77a7174007b5c2192c806d9e6393e756
   }
 }
 

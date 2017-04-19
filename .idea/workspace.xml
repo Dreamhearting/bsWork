@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3739a36-6927-4cb3-96d4-20d13ae1b788" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c-bottom.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c-j-3.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c-j-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c-j-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c-j-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c-time.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/common.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/common.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/c-jiudian3.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c-active.html" afterPath="$PROJECT_DIR$/c-active.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/c-active.scss" afterPath="$PROJECT_DIR$/css/c-active.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common.css" afterPath="$PROJECT_DIR$/css/common.css" />
-    </list>
+    <list default="true" id="b3739a36-6927-4cb3-96d4-20d13ae1b788" name="默认" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -36,23 +23,13 @@
           <file leaf-file-name="c-active.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/c-active.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
+                <state relative-caret-position="2046">
                   <caret line="107" column="23" lean-forward="true" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
                   <folding>
                     <element signature="n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="e#4203#4207#1" expanded="true" />
                     <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://E:/1   8/bsWork/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-330">
-                  <caret line="113" column="17" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="113" selection-end-column="17" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -361,12 +338,12 @@
       <option name="presentableId" value="Default" />
       <updated>1492525235973</updated>
       <workItem from="1492525238249" duration="10858000" />
-      <workItem from="1492562450215" duration="7307000" />
+      <workItem from="1492562450215" duration="7649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18165000" />
+    <option name="totallyTimeSpent" value="18507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -549,7 +526,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/c-active.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="2046">
           <caret line="107" column="23" lean-forward="true" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
           <folding>
             <element signature="n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
