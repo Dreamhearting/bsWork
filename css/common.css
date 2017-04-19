@@ -3,3 +3,128 @@
   margin: 0;
   list-style: none;
 }
+
+.q-head {
+  height: auto;
+}
+
+.q-head p {
+  margin: 0;
+  height: auto;
+}
+
+.q-header {
+  height: 10.9rem;
+  background: url(../img/q-header.png) no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+.q-header .q-hFont {
+  height: 4.54rem;
+  background: url(../img/q-nav.png) no-repeat;
+  background-size: 100%;
+}
+
+.q-header .q-hFont p {
+  height: 1.51rem;
+  margin: 0;
+  overflow: hidden;
+}
+
+.q-header .q-hFont p a {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  color: #a6a6a6;
+  font-weight: 500;
+  font-size: 0.13rem;
+  align-content: center;
+  justify-content: center;
+}
+
+.q-header .q-hFont p a span {
+  display: block;
+  width: 100%;
+  color: #50af71;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 0.18rem;
+}
+
+footer {
+  width: 100%;
+  height: 1.3rem;
+  background: #08635a;
+  overflow: hidden;
+  padding-top: .2rem;
+}
+
+footer p {
+  height: .34rem;
+  line-height: .34rem;
+  text-align: center;
+  color: #bcc7c6;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    height: 0.7rem;
+    line-height: 0.7rem;
+  }
+}
+
+.q-headFont {
+  position: absolute;
+  top: 0;
+  left: 1.6rem;
+  width: 1.6rem;
+  height: 2.59rem;
+  background: #fff;
+}
+
+.q-headFont > p {
+  margin: 0;
+  height: .48rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.q-headFont > p img {
+  width: 80%;
+  height: .38rem;
+}
+
+.q-headFont > div {
+  height: 2rem;
+  background: url(../img/q-nav.png) no-repeat;
+  background-size: 100%;
+}
+
+.q-headFont > div p {
+  height: .29rem;
+  background: url(../img/q-shadow.png) no-repeat;
+  background-size: 100%;
+  padding-top: .1rem;
+}
+
+.q-headFont > div p a {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  color: #a6a6a6;
+  font-weight: 500;
+  font-size: 0.08rem;
+  align-content: center;
+  justify-content: center;
+}
+
+.q-headFont > div p a span {
+  display: block;
+  width: 100%;
+  color: #50af71;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 0.09rem;
+}
