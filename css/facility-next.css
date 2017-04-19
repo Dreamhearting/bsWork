@@ -1,0 +1,121 @@
+@charset "UTF-8";
+.f-top {
+  margin-top: 50px;
+  height: 40px;
+  position: relative;
+}
+
+.f-top img {
+  height: 34px;
+  float: left;
+  margin-top: 3px;
+}
+
+.f-top .f-top1 {
+  width: 300px;
+  height: 20px;
+}
+
+.f-top .f-top1 div {
+  width: 80px;
+  height: 100%;
+  float: left;
+}
+
+.f-top .f-top1 div:last-child {
+  color: #008979;
+}
+
+.f-top .tou {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 180px;
+  top: 9px;
+  font-family: '宋体';
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.f-ti .f-imgx {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.f-ti .f-imgx img {
+  width: 3rem;
+}
+
+.f-ti .f-wen img {
+  width: 100%;
+}
+
+.f-ti .f-wen p {
+  text-align: justify;
+  margin-top: 15px;
+  font-size: 0.19rem;
+}
+
+.f-tu img {
+  width: 100%;
+}
+
+.f-zi {
+  margin-top: 50px;
+}
+
+.f-zi i {
+  text-align: center;
+  font-weight: 700;
+  line-height: 26px;
+  color: #42AB9C;
+}
+
+.f-zi p {
+  text-align: center;
+  color: #959595;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.f-img3 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.f-imgx, .f-xiao {
+  display: block;
+}
+
+.f-imgd, .f-only {
+  display: none;
+}
+
+footer p {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .f-imgx, .f-xiao {
+    display: none;
+  }
+  .f-only {
+    display: block;
+  }
+  .f-ti .f-imgd {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .f-ti .f-imgd img {
+    width: 1.5rem;
+  }
+  .f-ti .f-wen > p {
+    margin-top: 40px;
+    text-align: justify;
+    font-size: 0.1rem;
+  }
+}
