@@ -1,0 +1,392 @@
+@media screen and (max-width: 768px){
+  //内容 第一部分
+  .title-1{
+    margin-bottom: 0.4rem;
+  }
+  .title-1 > img{
+    height: 0.7rem;
+  }
+  //选项卡
+  .c-choose > div{
+    width: 100%;
+    height: 5.38rem;
+  }
+  .c-1 > div{
+    width: 48%;
+    height: 100%;
+    margin-right: 2%;
+    float: left;
+    position: relative;
+  }
+  .c-1 > div:first-child{
+    background:url("../img/c-img1.png") center no-repeat;
+  }
+  .c-1 > div:last-child{
+    background: url("../img/c-img2.png") center no-repeat;
+  }
+  .c-2 > div{
+    margin: 0 auto;
+    width: 48%;
+    height: 100%;
+    position: relative;
+    background: url("../img/c-img3.png") center no-repeat;
+  }
+  .theme{
+    width: 3rem;
+    background:#3ea99e ;
+    padding: 0.28rem;
+    padding-bottom: 0.5rem;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0.12rem;
+    left: 0.18rem;
+    img{
+      margin-bottom: 0.28rem;
+      width: 100%;
+    }
+    p{
+      height: 3rem;
+      font-size: 0.16rem;
+    }
+    .left{
+      position: absolute;
+      left:0.28rem;
+      bottom: 0.28rem;
+      font-family: '宋体';
+      font-size: 0.30rem;
+      cursor: pointer;
+    }
+    .money{
+      position: absolute;
+      right: 0.28rem;
+      bottom: 0.28rem;
+      width: 1.28rem;
+      height: 0.33rem;
+      background: #4bc460;
+      border-radius: 0.06rem;
+      line-height: 0.33rem;
+      text-align: center;
+      span:first-child{
+        font-size: 0.24rem;
+        color: #fff;
+      }
+      span:last-child{
+        font-size: 0.18rem;
+        color: #fff;
+      }
+    }
+  }
+
+  .active{
+    display: none;
+  }
+
+  .rect{
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
+  }
+  .rect > .rect-p{
+    margin: 0 auto;
+    width: 0.8rem;
+    height: 0.1rem;
+    div{
+      width: 0.3rem;
+      height: 100%;
+      margin-right: 0.1rem;
+      float: left;
+      background: #d2d2d2;
+      cursor: pointer;
+    }
+  }
+  .rect > .rect-p .first{
+    background: #535353;
+  }
+
+
+  //段落
+  .p-1{
+    text-align: center;
+  }
+  //内容第二部分
+  .title-2{
+    margin-top: 0.2rem;
+    margin-bottom: 0.4rem;
+  }
+  .title-2 > img{
+    height:0.72rem;
+  }
+  .img-box{
+    width: 3.2rem;
+    height: 2.7rem;
+    overflow: hidden;
+    img{
+      height: 100%;
+    }
+  }
+  .img-box > .ge{
+    width: 100%;
+    height: auto;
+  }
+  .con{
+    h3{
+      font-size: 0.28rem;
+      margin-bottom: 0;
+    }
+    p{
+      font-size: 0.2rem;
+      margin-bottom: 0;
+    }
+    span{
+      font-size: 0.16rem;
+    }
+  }
+  //点击
+  .click{
+    margin-top: 0.4rem;
+    text-align: center;
+    overflow: hidden;
+    div{
+      width: 2rem;
+      height: 0.7rem;
+      border-radius: 0.35rem;
+      text-align: center;
+      line-height: 0.7rem;
+      font-size: 0.28rem;
+      color: #fff;
+      background: #4bc460;
+      cursor: pointer;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (min-width: 768px){
+  //内容 第一部分
+  .title-1{
+    margin-bottom: 40px;
+  }
+  .title-1 > img{
+    height: 70px;
+  }
+  .c-choose{
+    height: 538px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  .c-choose>div{
+    height: 538px;
+    width: 32.333333%;
+    float: left;
+    background: red;
+    position: relative;
+  }
+  .c-choose > div:first-child{
+    background:url("../img/c-img1.png") center no-repeat;
+  }
+  .c-choose > div:nth-child(2){
+    background: url("../img/c-img2.png") center no-repeat;
+  }
+  .c-choose > div:last-child{
+    background: url("../img/c-img3.png") center no-repeat;
+  }
+
+  .theme{
+    width: 92%;
+    background:#3ea99e ;
+    padding: 22px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -30px;
+    left: 3%;
+    z-index: 1000;
+    img{
+      margin-bottom: 0.28px;
+      width: 88%;
+    }
+    p{
+      height: 300px;
+      font-size: 16px;
+    }
+    .left{
+      position: absolute;
+      left:22px;
+      bottom: 18px;
+      font-family: '宋体';
+      font-size: 30px;
+      cursor: pointer;
+    }
+    .money{
+      position: absolute;
+      right: 22px;
+      bottom: 18px;
+      width: 128px;
+      height: 33px;
+      background: #4bc460;
+      border-radius: 6px;
+      line-height: 33px;
+      text-align: center;
+      span:first-child{
+        font-size: 24px;
+        color: #fff;
+      }
+      span:last-child{
+        font-size: 18px;
+        color: #fff;
+      }
+    }
+  }
+  .active{
+    display: none;
+  }
+
+
+
+  //段落
+  .p-1{
+    text-align: center;
+  }
+  //内容第二部分
+  .title-2{
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .title-2 > img{
+    height:72px;
+  }
+  .img-box{
+    width: 320px;
+    height: 270px;
+    overflow: hidden;
+    img{
+      height: 100%;
+    }
+  }
+  .img-box > .ge{
+    width: 100%;
+    height: auto;
+  }
+  .con{
+    h3{
+      font-size: 28px;
+      margin-bottom: 0;
+    }
+    p{
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+    span{
+      font-size: 16px;
+    }
+  }
+  //点击
+  .click{
+    margin-top: 40px;
+    text-align: center;
+    overflow: hidden;
+    div{
+      width: 200px;
+      height: 70px;
+      border-radius: 35px;
+      text-align: center;
+      line-height: 70px;
+      font-size: 28px;
+      color: #fff;
+      background: #4bc460;
+      cursor: pointer;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .theme{
+    width: 80%;
+    background: #3ea99e;
+    padding: 30px;
+    padding-top: 34px;
+    padding-bottom: 74px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -30px;
+    left: 10%;
+    z-index: 1000;
+    img{
+      margin-bottom: 0.28px;
+      width: 80%;
+    }
+    p{
+      height: 300px;
+      font-size: 14px;
+      padding-top: 24px;
+      box-sizing: border-box;
+    }
+    .left{
+      position: absolute;
+      left:22px;
+      bottom: 15px;
+      font-family: '宋体';
+      font-size: 30px;
+      cursor: pointer;
+    }
+    .money{
+      position: absolute;
+      right: 22px;
+      bottom: 15px;
+      width: 128px;
+      height: 33px;
+      background: #4bc460;
+      border-radius: 6px;
+      line-height: 33px;
+      text-align: center;
+      span:first-child{
+        font-size: 24px;
+        color: #fff;
+      }
+      span:last-child{
+        font-size: 18px;
+        color: #fff;
+      }
+    }
+  }
+}
+
+
+.container{
+  margin-top: 0.15rem;
+}
+.c-nav > li{
+  float: left;
+  cursor: pointer;
+}
+.c-nav > li > span{
+  font-family: '宋体';
+  font-size: 24px;
+  margin: 0 6px;
+}
+.c-nav > li:first-child > div{
+  float: left;
+  text-align: center;
+}
+.c-nav > li:first-child > div > img{
+  width: 23px;
+  margin-top: 8px;
+}
+.c-nav > li > div > p{
+  margin: 0;
+  text-align: center;
+}
+.c-nav > li > div > p:first-child{
+  font-size: 14px;
+}
+.c-nav > li > div > p:last-child{
+  font-size: 9px;
+}
+//标题
+.title-one img{
+  margin: 0 auto;
+  width: 250px;
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
