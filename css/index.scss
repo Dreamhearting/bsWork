@@ -546,9 +546,12 @@ p.q-shishang{
     outline: none;
     margin: .4rem 0;
 }
-
+.q-contant{
+    margin-top: 2rem;
+}
 .q-c-box{
     background: #06897c;
+    margin-top: 0rem;
     .q-c-boxs{
         height: 2.19rem;
         border-bottom: 1px dashed #898989;
@@ -562,7 +565,7 @@ p.q-shishang{
     }
     .q-erWei{
         background: #06897c;
-        padding: 0 .9rem;
+        padding: 0 .3rem;
         color: #c6cfce;
         img{
             display: block;
@@ -571,7 +574,7 @@ p.q-shishang{
         }
     }
     .q-input{
-        padding: 0 .9rem .4rem;
+        padding: 0 .3rem .4rem;
         h3{
             color: #c4cecd;
             letter-spacing: 10px;

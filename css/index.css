@@ -590,8 +590,13 @@ p.q-shishang span {
   }
 }
 
+.q-contant {
+  margin-top: 2rem;
+}
+
 .q-c-box {
   background: #06897c;
+  margin-top: 0rem;
 }
 
 .q-c-box .q-c-boxs {
@@ -610,7 +615,7 @@ p.q-shishang span {
 
 .q-c-box .q-erWei {
   background: #06897c;
-  padding: 0 .9rem;
+  padding: 0 .3rem;
   color: #c6cfce;
 }
 
@@ -621,7 +626,7 @@ p.q-shishang span {
 }
 
 .q-c-box .q-input {
-  padding: 0 .9rem .4rem;
+  padding: 0 .3rem .4rem;
 }
 
 .q-c-box .q-input h3 {
