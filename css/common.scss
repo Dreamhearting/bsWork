@@ -65,6 +65,9 @@ footer{
 @media screen and (min-width: 768px) {
     footer{
         height: 0.5rem;
+        .q-contant{
+            margin-top: 2rem;
+        }
     }
 }
 .q-headFont{
@@ -72,7 +75,7 @@ footer{
     top: 0;
     left: 1.6rem;
     width: 1.6rem;
-    height: 2.59rem;
+    height: auto;
     background: #fff;
     > p{
         margin: 0;

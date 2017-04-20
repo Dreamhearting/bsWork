@@ -4,6 +4,7 @@
 .q-reserve{
     background: #fff;
     .q-re-head{
+        margin-top: 20px;
         img{
             width: 300px;
             margin-bottom: .2rem;
@@ -27,7 +28,7 @@ p.q-shishang{
     margin-top: .2rem;
     color: #8a7f7f;
     padding: .4rem 0;
-    height: 1.6rem;
+    height: auto;
     background: url(../img/q-yuding-shadow.png) no-repeat center;
     span{
        color: #06897c;
@@ -523,7 +524,7 @@ p.q-shishang{
 }
 .q-about{
     p.q-shishang{
-        height: 2.4rem !important;
+        height: auto;
         font-size: .1rem !important;
     }
 }
@@ -545,9 +546,6 @@ p.q-shishang{
     color: #c4cecd;
     outline: none;
     margin: .4rem 0;
-}
-.q-contant{
-    margin-top: 2rem;
 }
 .q-c-box{
     background: #06897c;
