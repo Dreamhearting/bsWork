@@ -37,7 +37,8 @@
       width: 100%; }
     .theme p {
       height: 3rem;
-      font-size: 0.16rem; }
+      font-size: 0.16rem;
+      overflow: hidden; }
     .theme .left {
       position: absolute;
       left: 0.28rem;
