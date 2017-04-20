@@ -96,12 +96,13 @@ a {
 }
 
 .g_touch span {
+  transition: opacity 0.3s;
   display: block;
   width: 3px;
   height: 34px;
   background: #4bc460;
   position: absolute;
-  display: none;
+  opacity: 0;
 }
 
 .g_touch span.g_left {
@@ -131,6 +132,23 @@ a {
   width: 5.4rem;
 }
 
+.g_po {
+  position: relative;
+}
+
+.g_po1 {
+  display: none;
+}
+
+@keyframes aa {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-8px);
+  }
+}
+
 @media screen and (min-width: 992px) {
   .g_touch {
     position: relative;
@@ -139,13 +157,18 @@ a {
     float: left;
     border: 1px solid #fff;
     box-sizing: border-box;
+    transition: all 0.3s;
     margin-top: 20px;
+  }
+  .g_touch:hover img {
+    animation: aa 1s linear infinite alternate;
   }
   .g_touch .g_icon {
     text-align: center;
   }
   .g_touch .g_icon img {
     width: 55px;
+    margin-top: 5px;
   }
   .g_touch .g_icon h2 {
     font-size: 12px;
@@ -160,7 +183,7 @@ a {
     box-sizing: border-box;
   }
   .g_touch:hover span {
-    display: block;
+    opacity: 1;
   }
   .g_map {
     width: 100%;
@@ -168,22 +191,29 @@ a {
     margin-bottom: 50px;
     position: relative;
     border: 1px solid #88d996;
+    overflow: hidden;
+    transition: all 1s;
   }
   .g_map img {
     width: 100%;
+    transition: all 0.5s;
   }
-  .g_map .g_tell {
+  .g_map:hover img {
+    transform: scale(1.05);
+  }
+  .g_tell {
     width: 238px;
     height: 45px;
     position: absolute;
-    top: -22px;
+    top: 25px;
     left: 50%;
+    z-index: 2;
     margin-left: -119px;
     border-radius: 50px;
     border: 2px solid #06897c;
     background: #fff;
   }
-  .g_map .g_tell span {
+  .g_tell span {
     display: block;
     width: 100%;
     height: 100%;
@@ -276,6 +306,12 @@ a {
 }
 
 @media screen and (max-width: 992px) {
+  .g_po {
+    display: none;
+  }
+  .g_po1 {
+    display: block;
+  }
   .g_imgtop {
     width: 100%;
     height: 1.32rem;
@@ -327,18 +363,19 @@ a {
   .g_map img {
     width: 100%;
   }
-  .g_map .g_tell {
+  .g_tell {
     width: 3.08rem;
     height: 0.56rem;
     position: absolute;
     top: -0.28rem;
     left: 50%;
+    z-index: 2;
     margin-left: -1.54rem;
     border-radius: 50px;
     border: 2px solid #06897c;
     background: #fff;
   }
-  .g_map .g_tell span {
+  .g_tell span {
     display: block;
     width: 100%;
     height: 100%;

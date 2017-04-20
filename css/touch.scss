@@ -5,7 +5,6 @@
     font-size: 12px;
     font-family: "微软雅黑";
 }
-
 a{
     text-decoration: none;
     color: #000;
@@ -86,12 +85,13 @@ a{
         height: auto;
     }
     span{
+        transition: opacity 0.3s;
         display: block;
         width: 3px;
         height: 34px;
         background: #4bc460;
         position: absolute;
-        display: none;
+        opacity: 0;
     }
     span.g_left{
         left: -3px;
@@ -117,7 +117,22 @@ a{
         width: 5.4rem;
     }
 }
+.g_po{
+    position: relative;
+}
+.g_po1{
+    display: none;
+}
+@keyframes aa{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-8px);
+    }
+}
 @media screen and (min-width:992px){
+    
     .g_touch{
         position: relative;
         width: 100%;
@@ -125,19 +140,25 @@ a{
         float: left;
         border: 1px solid #fff;
         box-sizing: border-box;
+        transition: all 0.3s;
         margin:{
             top:20px;
+        }
+        &:hover img{
+            animation: aa 1s linear infinite alternate;
         }
         .g_icon{
             text-align: center;
             img{
                 width: 55px;
+                margin-top: 5px;
             }
             h2{
                 font-size: 12px;
                 width: 100%;
                 text-align: center;
             }
+            
         }
     }
     .g_line{
@@ -148,7 +169,7 @@ a{
         box-sizing: border-box;
     }
     .g_touch:hover span{
-        display: block;
+        opacity: 1;
     }
     
     .g_map{
@@ -156,31 +177,40 @@ a{
         margin:{
           top: 50px;
           bottom: 50px;  
-        } 
+        }; 
+        
         position: relative;
         border: 1px solid #88d996;
+        overflow: hidden;
+        transition: all 1s;
         img{
             width: 100%;
+             transition: all 0.5s;
         }
-        .g_tell{
-            width: 238px;
-            height: 45px;
-            position: absolute;
-            top: -22px;
-            left: 50%;
-            margin-left: -119px;
-            border-radius: 50px;
-            border: 2px solid #06897c;
-            background: #fff;
-            span{
-                display: block;
-                width: 100%;
-                height: 100%;
-                text-align: center;
-                line-height: 45px;
-                font-size: 30px;
-                color: #06897c;
-            }
+        &:hover img{
+            transform: scale(1.05);
+        }
+    }
+    
+    .g_tell{
+        width: 238px;
+        height: 45px;
+        position: absolute;
+        top: 25px;
+        left: 50%;
+        z-index: 2;
+        margin-left: -119px;
+        border-radius: 50px;
+        border: 2px solid #06897c;
+        background: #fff;
+        span{
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            line-height: 45px;
+            font-size: 30px;
+            color: #06897c;
         }
     }
     .g_copy{
@@ -271,6 +301,12 @@ a{
     
 }
 @media screen and (max-width:992px){
+    .g_po{
+        display: none;
+    }
+    .g_po1{
+        display: block;
+    }
     .g_imgtop{
         width: 100%;
         height: 1.32rem;
@@ -325,25 +361,27 @@ a{
         img{
             width: 100%;
         }
-        .g_tell{
-            width: 3.08rem;
-            height: 0.56rem;
-            position: absolute;
-            top: -0.28rem;
-            left: 50%;
-            margin-left: -1.54rem;
-            border-radius: 50px;
-            border: 2px solid #06897c;
-            background: #fff;
-            span{
-                display: block;
-                width: 100%;
-                height: 100%;
-                text-align: center;
-                line-height: 0.56rem;
-                font-size: 0.3rem;
-                color: #06897c;
-            }
+        
+    }
+    .g_tell{
+        width: 3.08rem;
+        height: 0.56rem;
+        position: absolute;
+        top: -0.28rem;
+        left: 50%;
+        z-index: 2;
+        margin-left: -1.54rem;
+        border-radius: 50px;
+        border: 2px solid #06897c;
+        background: #fff;
+        span{
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            line-height: 0.56rem;
+            font-size: 0.3rem;
+            color: #06897c;
         }
     }
     .g_copy{
