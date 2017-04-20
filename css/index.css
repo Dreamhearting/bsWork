@@ -30,9 +30,9 @@ p.q-shishang {
   text-align: center;
   margin-top: .2rem;
   color: #8a7f7f;
-  padding: .4rem 0;
+  padding: .4rem 0 .6rem;
   height: auto;
-  background: url(../img/q-yuding-shadow.png) no-repeat center;
+  background: url(../img/q-yuding-shadow.png) no-repeat bottom;
 }
 
 p.q-shishang span {
