@@ -4,13 +4,14 @@
 $(function () {
     var choose=$('.c-choose > div');
     var rect=$('.rect-p > div');
-    var left=$('.left');
+    var left=$('.theme');
+    console.log(left);
     rect.hover(function () {
         $(this).addClass('first').siblings().removeClass('first');
         choose.addClass('active').eq($(this).index()).removeClass('active');
     });
     left.click(function () {
-        $(this).parent().children().eq(1).slideToggle();
+        $(this).children().eq(1).slideToggle();
     });
     
     $('.click').click(function () {
