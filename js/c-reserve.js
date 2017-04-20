@@ -13,7 +13,7 @@ $(function () {
         $(this).parent().children().eq(1).toggleClass('active');
     });
     $('.click').click(function () {
-        $('.con').removeClass('hidden-xs');
+        $('.con').removeClass('hidden-xs hidden-sm');
     })
     $(window).resize(function () {
         if($(window).width()>=758){
