@@ -2,6 +2,11 @@
   padding: 0;
   margin: 0;
   list-style: none;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none !important;
 }
 
 .q-head {
@@ -14,7 +19,7 @@
 }
 
 .q-header {
-  height: auto;
+  height: 11rem;
   background: url(../img/q-header.png) no-repeat;
   background-size: 100%;
   overflow: hidden;
