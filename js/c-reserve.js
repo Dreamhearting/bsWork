@@ -31,6 +31,6 @@ $(function () {
     $('.img-box').css('cursor','pointer');
     $('.con').click(function(){
 //  	location.href = 'reserve-next.html';
-    	location.assign('reserve-next.html');
+    	location.assign('https://htmlpreview.github.io/?https://raw.githubusercontent.com/bsWok/bsWork/master/reserve-next.html');
     });
 })

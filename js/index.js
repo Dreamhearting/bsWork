@@ -68,25 +68,25 @@ $(document).ready(function(){
 	});
 	$('.q-rebtn').children().eq(0).click(function(){
 //		location.href = 'c-reserve.html';
-		location.assign('c-reserve.html');
+		location.assign('https://htmlpreview.github.io/?https://raw.githubusercontent.com/bsWok/bsWork/master/c-reserve.html');
 	});
 	//配套
 	$('.q-f-sbox').children().click(function(){
 //		location.href = 'facility.html';
-		location.assign('facility.html');
+		location.assign('https://htmlpreview.github.io/?https://raw.githubusercontent.com/bsWok/bsWork/master/facility.html');
 	});
 	//动态
 	$('.q-img').click(function(){
 //		location.href = 'c-active.html';
-		location.assign('c-active.html');
+		location.assign('https://htmlpreview.github.io/?https://raw.githubusercontent.com/bsWok/bsWork/master/c-active.html');
 	});
 	$('.q-img-b').click(function(){
 //		location.href = 'c-active.html';
-		location.assign('c-active.html');
+		location.assign('https://htmlpreview.github.io/?https://raw.githubusercontent.com/bsWok/bsWork/master/c-active.html');
 	});
 	//关于
 	$('.q-about-top').children().eq(7).click(function(){
 //		location.href = 'about.html';
-		location.assign('about.html');
+		location.assign('https://htmlpreview.github.io/?https://raw.githubusercontent.com/bsWok/bsWork/master/about.html');
 	});
 });

@@ -3,7 +3,6 @@
  */
 $(document).ready(function(){
 	$('.c-btn').click(function(){
-//		location.href = 'reserve-next.html';
-		location.assign('reserve-next.html');
+		location.assign('https://htmlpreview.github.io/?https://raw.githubusercontent.com/bsWok/bsWork/master/reserve-next.html');
 	});
 });
