@@ -263,6 +263,10 @@ a {
   display: none;
 }
 
+.g_shadow {
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 1200px) {
   .g_active {
     margin-top: 0;
