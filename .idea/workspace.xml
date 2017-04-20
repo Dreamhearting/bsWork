@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3739a36-6927-4cb3-96d4-20d13ae1b788" name="默认" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c-reserve.html" afterPath="$PROJECT_DIR$/c-reserve.html" />
+=======
+<<<<<<< HEAD
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/facility.css" afterPath="$PROJECT_DIR$/css/facility.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/facility.scss" afterPath="$PROJECT_DIR$/css/facility.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facility-next.html" afterPath="$PROJECT_DIR$/facility-next.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facility.html" afterPath="$PROJECT_DIR$/facility.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reserve-next.html" afterPath="$PROJECT_DIR$/reserve-next.html" />
+=======
+>>>>>>> b35ecd946d05b21387a4ea3db14b5c4c110f3944
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/c-reserve.css" afterPath="$PROJECT_DIR$/css/c-reserve.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/c-reserve.scss" afterPath="$PROJECT_DIR$/css/c-reserve.scss" />
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,17 +34,36 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5297158">
+<<<<<<< HEAD
+    <splitter split-orientation="horizontal" split-proportion="0.52529764">
+=======
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
+    <splitter split-orientation="horizontal" split-proportion="0.5185185">
+>>>>>>> b35ecd946d05b21387a4ea3db14b5c4c110f3944
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="c-reserve.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/c-reserve.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="150" column="25" lean-forward="true" selection-start-line="150" selection-start-column="25" selection-end-line="150" selection-end-column="25" />
+                <state relative-caret-position="691">
+                  <caret line="263" column="35" lean-forward="true" selection-start-line="263" selection-start-column="35" selection-end-line="263" selection-end-column="35" />
                   <folding>
+                    <element signature="n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="c-active.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/c-active.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="231">
+                  <caret line="178" column="19" lean-forward="true" selection-start-line="178" selection-start-column="19" selection-end-line="178" selection-end-column="19" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -43,9 +75,63 @@
           <file leaf-file-name="c-reserve.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/c-reserve.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
-                  <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+                <state relative-caret-position="328">
+                  <caret line="526" column="3" lean-forward="true" selection-start-line="526" selection-start-column="3" selection-end-line="526" selection-end-column="3" />
+                  <folding>
+                    <element signature="e#2370#2568#0" expanded="false" />
+                    <element signature="e#2584#2915#0" expanded="false" />
+                    <element signature="e#2955#5397#0" expanded="false" />
+                    <element signature="e#3581#4428#0" expanded="false" />
+                    <element signature="e#4438#4462#0" expanded="false" />
+                    <element signature="e#4868#5058#0" expanded="false" />
+                    <element signature="e#5075#5395#0" expanded="false" />
+                    <element signature="e#5436#6574#0" expanded="false" />
+                    <element signature="e#5444#5634#0" expanded="false" />
+                    <element signature="e#5646#6572#0" expanded="false" />
+                    <element signature="e#5869#5923#0" expanded="false" />
+                    <element signature="e#5929#6035#0" expanded="false" />
+                    <element signature="e#6045#6186#0" expanded="false" />
+                    <element signature="e#6197#6568#0" expanded="false" />
+                    <element signature="e#6587#6613#0" expanded="false" />
+                    <element signature="e#6617#6660#0" expanded="false" />
+                    <element signature="e#6668#6737#0" expanded="false" />
+                    <element signature="e#6744#7446#0" expanded="false" />
+                    <element signature="e#7467#7547#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="motive.css" pinned="false" current-in-tab="false">
+            <entry file="file://E:/code/motive/motive.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="147">
+                  <caret line="58" column="30" lean-forward="true" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="motive.html" pinned="false" current-in-tab="false">
+            <entry file="file://E:/code/motive/motive.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="356">
+                  <caret line="74" column="10" lean-forward="true" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="c-reserve.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/c-reserve.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="861">
+                  <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+                  <folding>
+                    <marker date="1492681990859" expanded="true" signature="55:2258" ph="{...}" />
+                    <marker date="1492681990859" expanded="true" signature="2167:2255" ph="{...}" />
+                    <marker date="1492681990859" expanded="true" signature="8932:8935" ph="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -53,6 +139,7 @@
         </leaf>
       </split-second>
     </splitter>
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,11 +157,13 @@
       <find>title</find>
       <find>px</find>
       <find>rem</find>
+      <find>motive-eight</find>
     </findStrings>
     <replaceStrings>
       <replace>sm</replace>
       <replace>rem</replace>
       <replace>px</replace>
+      <replace>img-box</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -87,10 +176,20 @@
         <option value="$PROJECT_DIR$/css/c-active.css" />
         <option value="$PROJECT_DIR$/css/c-active.scss" />
         <option value="$PROJECT_DIR$/c-active.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/facility.html" />
+=======
         <option value="$PROJECT_DIR$/c-reserve.html" />
+>>>>>>> b35ecd946d05b21387a4ea3db14b5c4c110f3944
         <option value="$PROJECT_DIR$/js/c-reserve.js" />
+        <option value="D:/用户目录/下载/animate/css/index.css" />
+        <option value="E:/code/motive/motive.css" />
+        <option value="$PROJECT_DIR$/c-reserve.html" />
         <option value="$PROJECT_DIR$/css/c-reserve.scss" />
+        <option value="$PROJECT_DIR$/facility.html" />
+        <option value="$PROJECT_DIR$/css/facility.scss" />
+        <option value="$PROJECT_DIR$/facility-next.html" />
+        <option value="$PROJECT_DIR$/reserve-next.html" />
       </list>
     </option>
   </component>
@@ -110,7 +209,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -127,8 +226,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+<<<<<<< HEAD
+=======
       <pane id="Scope" />
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -175,6 +277,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,11 +300,30 @@
       <recent name="E:\bsWork\css" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
     <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
@@ -281,32 +403,59 @@
       <workItem from="1492666631332" duration="500000" />
       <workItem from="1492667353172" duration="17000" />
       <workItem from="1492668124296" duration="205000" />
+<<<<<<< HEAD
+      <workItem from="1492670225232" duration="369000" />
+=======
+      <workItem from="1492669157436" duration="766000" />
+      <workItem from="1492670265377" duration="149000" />
+<<<<<<< HEAD
+      <workItem from="1492677582748" duration="4488000" />
+=======
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
+>>>>>>> b35ecd946d05b21387a4ea3db14b5c4c110f3944
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47647000" />
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="53050000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13616072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12648809" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="48016000" />
+=======
+    <option name="totallyTimeSpent" value="48562000" />
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+<<<<<<< HEAD
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13543192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
+>>>>>>> b35ecd946d05b21387a4ea3db14b5c4c110f3944
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,16 +477,8 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/c-reserve.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="72" lean-forward="false" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
-          <folding>
-            <element signature="n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/facility-next.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -359,6 +500,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> b35ecd946d05b21387a4ea3db14b5c4c110f3944
     <entry file="file://$PROJECT_DIR$/css/c-active.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -624,13 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/c-active.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="194" column="3" lean-forward="true" selection-start-line="194" selection-start-column="3" selection-end-line="194" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -638,6 +773,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/facility-next.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -649,20 +785,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facility.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="72" lean-forward="false" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
+=======
     <entry file="file://$PROJECT_DIR$/c-active.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3276">
           <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+>>>>>>> b35ecd946d05b21387a4ea3db14b5c4c110f3944
         </state>
       </provider>
     </entry>
@@ -676,29 +804,180 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/c-reserve.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="150" column="25" lean-forward="true" selection-start-line="150" selection-start-column="25" selection-end-line="150" selection-end-column="25" />
-          <folding>
-            <element signature="n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="29">
+          <caret line="152" column="25" lean-forward="false" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/c-reserve.css">
+=======
+    <entry file="file://$PROJECT_DIR$/c-active.html">
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-378">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/c-reserve.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        <state relative-caret-position="58">
+          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facility.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="113">
+          <caret line="228" column="31" lean-forward="false" selection-start-line="228" selection-start-column="31" selection-end-line="228" selection-end-column="31" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+=======
+        <state relative-caret-position="294">
+          <caret line="176" column="46" lean-forward="false" selection-start-line="176" selection-start-column="46" selection-end-line="176" selection-end-column="46" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
+>>>>>>> b35ecd946d05b21387a4ea3db14b5c4c110f3944
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facility-next.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="861">
+          <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+          <folding>
+            <marker date="1492681990859" expanded="true" signature="55:2258" ph="{...}" />
+            <marker date="1492681990859" expanded="true" signature="2167:2255" ph="{...}" />
+            <marker date="1492681990859" expanded="true" signature="8932:8935" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/用户目录/下载/animate/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="65" column="14" lean-forward="true" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="406">
+          <caret line="170" column="51" lean-forward="false" selection-start-line="170" selection-start-column="51" selection-end-line="170" selection-end-column="51" />
+=======
+        <state relative-caret-position="420">
+          <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
+>>>>>>> b35ecd946d05b21387a4ea3db14b5c4c110f3944
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/c-active.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="178" column="19" lean-forward="true" selection-start-line="178" selection-start-column="19" selection-end-line="178" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/用户目录/下载/animate/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="137" column="1" lean-forward="true" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/c-active.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1399">
+          <caret line="184" column="20" lean-forward="false" selection-start-line="184" selection-start-column="20" selection-end-line="184" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/code/motive/motive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="74" column="10" lean-forward="true" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/code/motive/motive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="58" column="30" lean-forward="true" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+=======
+    <entry file="file://$PROJECT_DIR$/reserve-next.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="154" column="42" lean-forward="false" selection-start-line="154" selection-start-column="42" selection-end-line="154" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/facility.scss">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="435">
+          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+=======
+        <state relative-caret-position="336">
+          <caret line="49" column="23" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
+>>>>>>> b35ecd946d05b21387a4ea3db14b5c4c110f3944
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c-reserve.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="263" column="35" lean-forward="true" selection-start-line="263" selection-start-column="35" selection-end-line="263" selection-end-column="35" />
+          <folding>
+            <element signature="n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/c-reserve.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="526" column="3" lean-forward="true" selection-start-line="526" selection-start-column="3" selection-end-line="526" selection-end-column="3" />
+          <folding>
+            <element signature="e#2370#2568#0" expanded="false" />
+            <element signature="e#2584#2915#0" expanded="false" />
+            <element signature="e#2955#5397#0" expanded="false" />
+            <element signature="e#3581#4428#0" expanded="false" />
+            <element signature="e#4438#4462#0" expanded="false" />
+            <element signature="e#4868#5058#0" expanded="false" />
+            <element signature="e#5075#5395#0" expanded="false" />
+            <element signature="e#5436#6574#0" expanded="false" />
+            <element signature="e#5444#5634#0" expanded="false" />
+            <element signature="e#5646#6572#0" expanded="false" />
+            <element signature="e#5869#5923#0" expanded="false" />
+            <element signature="e#5929#6035#0" expanded="false" />
+            <element signature="e#6045#6186#0" expanded="false" />
+            <element signature="e#6197#6568#0" expanded="false" />
+            <element signature="e#6587#6613#0" expanded="false" />
+            <element signature="e#6617#6660#0" expanded="false" />
+            <element signature="e#6668#6737#0" expanded="false" />
+            <element signature="e#6744#7446#0" expanded="false" />
+            <element signature="e#7467#7547#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
