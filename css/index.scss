@@ -108,15 +108,18 @@ p.q-shishang{
     } 
     .q-room1 > div{
         margin-bottom: 1rem;
+        > div{
+            margin: auto;
+        }
     }
     .q-money{
         width: 100%;
         height: 100%;
     }
     .q-money p{
-        font-size: .18rem;
+        font-size: 6px;
         span{
-            font-size: .32rem !important;
+            font-size: 13px !important;
         }
 }
 }
@@ -170,6 +173,7 @@ p.q-shishang{
         .q-f-sbox{
             width: 100%;
             height: 3.82rem;
+            cursor: pointer;
             .q-f-ssbox{
                 padding: .1rem;
                 height: 100%;
@@ -230,6 +234,7 @@ p.q-shishang{
             padding: .15rem .08rem;
             .q-f-sbox{
                 height: 2.1rem;
+                cursor: pointer;
                 &:nth-child(1)           
                 .q-f-ssbox:nth-child(1){
                     background: #fff;
@@ -291,7 +296,6 @@ p.q-shishang{
     width: 4.06rem;
     height: 1.6rem;
     padding: 0 .2rem;
-//  display: none;
     background: #fff;
     position: absolute;
     transition: transform .5s;
@@ -312,7 +316,11 @@ p.q-shishang{
         overflow: hidden;
         .q-img{
             @include q-imgs;
+            background: url(../img/q-gsimg.png) no-repeat;
+            background-size: cover;
+            cursor: pointer;
             img{
+                width: 1.8rem;
                 position: absolute;
                 top: -.1rem;
                 left: .1rem;
@@ -388,6 +396,7 @@ p.q-shishang{
             box-sizing: border-box;
             padding: 0 .1rem;
             background: #fff;
+            cursor: pointer;
             transition: all .5s;
             border: 1px solid #ccc;
             position: relative;
@@ -466,6 +475,11 @@ p.q-shishang{
         font-size: .22rem;
         color: #888;
         margin-bottom: .8rem;
+        transition: all .3s;
+        &:hover{
+            background: #06897c;
+            color: #fff;
+        }
     }
 }
 //大屏
@@ -478,7 +492,7 @@ p.q-shishang{
         img{
             margin-bottom: .2rem;
         }
-        h3,h4,p,button{
+        h3,h4,p{
             margin-left: .1rem;
             color: #fff;
         } 
@@ -529,13 +543,15 @@ p.q-shishang{
     border: 1px solid #61a69f;
     background: #06897c;
     color: #c4cecd;
-    text-indent: 1em;
     outline: none;
     margin: .4rem 0;
 }
-
+.q-contant{
+    margin-top: 2rem;
+}
 .q-c-box{
     background: #06897c;
+    margin-top: 0rem;
     .q-c-boxs{
         height: 2.19rem;
         border-bottom: 1px dashed #898989;
@@ -549,7 +565,7 @@ p.q-shishang{
     }
     .q-erWei{
         background: #06897c;
-        padding: 0 .9rem;
+        padding: 0 .3rem;
         color: #c6cfce;
         img{
             display: block;
@@ -558,14 +574,16 @@ p.q-shishang{
         }
     }
     .q-input{
-        padding: 0 .9rem .4rem;
+        padding: 0 .3rem .4rem;
         h3{
             color: #c4cecd;
+            letter-spacing: 10px;
         }
         input{
             @include inputs;
             width: 100%;
             height: .54rem;
+            outline-color: #ccc;
         }
         textarea{
             @include inputs;
@@ -576,10 +594,17 @@ p.q-shishang{
         }
         button{
             @include inputs;
-            width: 1.8rem;
+            width: 2.2rem;
             height: .7rem;
             margin: auto;
+            text-indent: 0;
+            letter-spacing: 5px;
             font-size: .18rem;
+            transition: all .3s ease;
+            &:hover{
+                background: #fff;
+                color: #06897c;
+            }
         }
     }
     
@@ -611,14 +636,18 @@ p.q-shishang{
     .q-input{
         h3{
             color: #c4cecd;
+            letter-spacing: 10px;
         }
         input{
             @include inputs;
             height: .18rem;
             font-size: .06rem;
             text-indent: 0;
-            margin: .1rem .08rem;
+            margin: .1rem .08rem .01rem;
             box-sizing: border-box;
+            &:nth-child(3){
+                margin: .1rem .08rem .1rem;
+            }
         }
         textarea{
             @include inputs;
@@ -634,6 +663,7 @@ p.q-shishang{
             width: .9rem;
             height: .3rem;
             margin: auto;
+            letter-spacing: 5px;
             text-indent: 0;
             font-size: .09rem;
             transition: all .3s ease;

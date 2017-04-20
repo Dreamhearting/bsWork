@@ -23,7 +23,7 @@
 .q-header .q-hFont {
   height: 4.54rem;
   background: url(../img/q-nav.png) no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
 }
 
 .q-header .q-hFont p {
@@ -38,7 +38,7 @@
   height: 100%;
   color: #a6a6a6;
   font-weight: 500;
-  font-size: 0.13rem;
+  font-size: 0.34rem;
   align-content: center;
   justify-content: center;
 }
@@ -49,7 +49,7 @@
   color: #50af71;
   text-align: center;
   font-weight: bolder;
-  font-size: 0.18rem;
+  font-size: 0.2rem;
 }
 
 footer {

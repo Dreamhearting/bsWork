@@ -2,18 +2,20 @@
  * Created by Administrator on 2017/4/19.
  */
 $(function () {
-    let choose=$('.c-choose > div');
-    let rect=$('.rect-p > div');
-    let left=$('.left');
-    rect.click(function () {
+    var choose=$('.c-choose > div');
+    var rect=$('.rect-p > div');
+    var left=$('.theme');
+    console.log(left);
+    rect.hover(function () {
         $(this).addClass('first').siblings().removeClass('first');
         choose.addClass('active').eq($(this).index()).removeClass('active');
     });
     left.click(function () {
-        $(this).parent().children().eq(1).toggleClass('active');
+        $(this).children().eq(1).slideToggle();
     });
+    
     $('.click').click(function () {
-        $('.con').removeClass('hidden-xs');
+        $('.con').removeClass('hidden-xs hidden-sm');
     })
     $(window).resize(function () {
         if($(window).width()>=758){
@@ -26,7 +28,9 @@ $(function () {
         }
     })
     $(window).triggerHandler('resize');
-
-
-
+    //点击事件
+    $('.img-box').css('cursor','pointer');
+    $('.con').click(function(){
+    	location.assign('https://htmlpreview.github.io/?https://raw.githubusercontent.com/bsWok/bsWork/master/reserve-next.html');
+    });
 })
