@@ -12,7 +12,7 @@
     }
 }
 .q-header{
-    height: 10.9rem;
+    height: auto;
     background: url(../img/q-header.png) no-repeat;
     background-size: 100%;
     overflow: hidden;
@@ -65,8 +65,14 @@ footer{
 @media screen and (min-width: 768px) {
     footer{
         height: 0.5rem;
+        padding: 0;
+        display: flex;
+        align-items: center;
         .q-contant{
             margin-top: 2rem;
+        }
+        p{
+            line-height: .52rem;
         }
     }
 }
@@ -90,11 +96,11 @@ footer{
     }
     
     > div{
-       height: 2rem; 
+       height: auto; 
        background: url(../img/q-nav.png) no-repeat;
        background-size: 100%;
        p{
-           height: .29rem;
+           height: .295rem;
            background:url(../img/q-shadow.png) no-repeat;
            background-size: 100%;
            padding-top: .1rem;

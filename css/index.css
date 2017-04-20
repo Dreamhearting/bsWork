@@ -50,6 +50,7 @@ p.q-shishang span {
 
 .q-room1 > div:hover .q-money {
   opacity: 1;
+  transform: rotateX(0deg);
 }
 
 .q-room1 > div .q-room-s1 {
@@ -85,12 +86,15 @@ p.q-shishang span {
   background: url(../img/q-room1.png) 0 -0.12rem;
   background-size: 100%;
   position: relative;
+  perspective: 2000px;
 }
 
 .q-money {
   position: absolute;
   opacity: 0;
-  transition: opacity .3s;
+  transform-origin: center top;
+  transform: rotateX(90deg);
+  transition: opacity .3s,transform .3s;
   text-align: center;
   bottom: 0;
   left: 0;
@@ -207,6 +211,19 @@ p.q-shishang span {
 .q-facility .q-f-box .q-f-sbox .q-f-ssbox span {
   font-size: .18rem;
   cursor: pointer;
+  animation: move 1s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(-0.1rem);
+  }
+  50% {
+    transform: translateY(0.1rem);
+  }
+  100% {
+    transform: translateY(-0.1rem);
+  }
 }
 
 .q-facility .q-f-box .q-f-sbox:nth-child(1) .q-f-ssbox:nth-child(1) {
