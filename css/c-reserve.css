@@ -38,7 +38,8 @@
     .theme p {
       height: 3rem;
       font-size: 0.16rem;
-      overflow: hidden; }
+      overflow: hidden;
+      margin-bottom: 6px; }
     .theme .left {
       position: absolute;
       left: 0.28rem;
