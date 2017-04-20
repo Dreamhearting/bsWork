@@ -2,9 +2,9 @@ $(document).ready(function(){
 	//轮播图
 	$('.q-img').css('left','200%');
 	$('.q-img').eq(0).show().css('left','0');
-	let len = $('.q-img').length;
-	let i = 0;
-	let j = 0;
+	var len = $('.q-img').length;
+	var i = 0;
+	var j = 0;
 	function move(){
 		j = i + 1;
 		if( j > len - 1){
@@ -16,7 +16,7 @@ $(document).ready(function(){
 		$('.q-img').eq(j).show().animate({left:0}).attr('id','q-active-r');
 		i = j;
 	}
-	let t = setInterval(move,5000);
+	var t = setInterval(move,5000);
 	$('.q-ban').mouseover(function(){
 		clearInterval(t);
 	});
@@ -40,10 +40,10 @@ $(document).ready(function(){
 });
 //大的轮播图
 $(document).ready(function(){
-	let qImgs = $('.q-b-box .col-sm-4');
-	let qreal = qImgs.children();
-	let width = qImgs.width();
-	let i=1;
+	var qImgs = $('.q-b-box .col-sm-4');
+	var qreal = qImgs.children();
+	var width = qImgs.width();
+	var i=1;
 	$('.q-bleft').click(function(){
 		i--;
 		if(i < 0){
