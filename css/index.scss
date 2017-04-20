@@ -108,15 +108,18 @@ p.q-shishang{
     } 
     .q-room1 > div{
         margin-bottom: 1rem;
+        > div{
+            margin: auto;
+        }
     }
     .q-money{
         width: 100%;
         height: 100%;
     }
     .q-money p{
-        font-size: .18rem;
+        font-size: 6px;
         span{
-            font-size: .32rem !important;
+            font-size: 13px !important;
         }
 }
 }
@@ -313,8 +316,11 @@ p.q-shishang{
         overflow: hidden;
         .q-img{
             @include q-imgs;
+            background: url(../img/q-gsimg.png) no-repeat;
+            background-size: cover;
             cursor: pointer;
             img{
+                width: 1.8rem;
                 position: absolute;
                 top: -.1rem;
                 left: .1rem;
@@ -585,7 +591,7 @@ p.q-shishang{
         }
         button{
             @include inputs;
-            width: 1.8rem;
+            width: 2.2rem;
             height: .7rem;
             margin: auto;
             text-indent: 0;

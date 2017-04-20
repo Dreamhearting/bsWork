@@ -63,24 +63,30 @@ $(document).ready(function(){
 $(document).ready(function(){
 	//预订
 	$('.q-room1>div').click(function(){
-		location.href='c-reserve.html';
+//		location.href='c-reserve.html';
+		location.assign('c-reserve.html');
 	});
 	$('.q-rebtn').children().eq(0).click(function(){
-		location.href = 'c-reserve.html';
+//		location.href = 'c-reserve.html';
+		location.assign('c-reserve.html');
 	});
 	//配套
 	$('.q-f-sbox').children().click(function(){
-		location.href = 'facility.html';
+//		location.href = 'facility.html';
+		location.assign('facility.html');
 	});
 	//动态
 	$('.q-img').click(function(){
-		location.href = 'c-active.html';
+//		location.href = 'c-active.html';
+		location.assign('c-active.html');
 	});
 	$('.q-img-b').click(function(){
-		location.href = 'c-active.html';
+//		location.href = 'c-active.html';
+		location.assign('c-active.html');
 	});
 	//关于
 	$('.q-about-top').children().eq(7).click(function(){
-		location.href = 'about.html';
+//		location.href = 'about.html';
+		location.assign('about.html');
 	});
 });

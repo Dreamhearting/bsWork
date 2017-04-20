@@ -3,6 +3,7 @@
  */
 $(document).ready(function(){
 	$('.c-btn').click(function(){
-		location.href = 'reserve-next.html';
+//		location.href = 'reserve-next.html';
+		location.assign('reserve-next.html');
 	});
 });

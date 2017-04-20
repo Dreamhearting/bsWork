@@ -30,6 +30,7 @@ $(function () {
     //点击事件
     $('.img-box').css('cursor','pointer');
     $('.con').click(function(){
-    	location.href = 'reserve-next.html';
+//  	location.href = 'reserve-next.html';
+    	location.assign('reserve-next.html');
     });
 })
