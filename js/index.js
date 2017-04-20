@@ -64,7 +64,8 @@ $(document).ready(function(){
 	//预订
 	$('.q-room1>div').click(function(){
 //		location.href='c-reserve.html';
-		location.assign('c-reserve.html');
+//		location.assign('c-reserve.html');
+		window.open('c-reserve.html');
 	});
 	$('.q-rebtn').children().eq(0).click(function(){
 //		location.href = 'c-reserve.html';

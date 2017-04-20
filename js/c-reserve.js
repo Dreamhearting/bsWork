@@ -2,9 +2,9 @@
  * Created by Administrator on 2017/4/19.
  */
 $(function () {
-    let choose=$('.c-choose > div');
-    let rect=$('.rect-p > div');
-    let left=$('.left');
+    var choose=$('.c-choose > div');
+    var rect=$('.rect-p > div');
+    var left=$('.left');
     rect.hover(function () {
         $(this).addClass('first').siblings().removeClass('first');
         choose.addClass('active').eq($(this).index()).removeClass('active');
