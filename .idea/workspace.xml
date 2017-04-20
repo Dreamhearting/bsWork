@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3739a36-6927-4cb3-96d4-20d13ae1b788" name="默认" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/facility.css" afterPath="$PROJECT_DIR$/css/facility.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/facility.scss" afterPath="$PROJECT_DIR$/css/facility.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facility-next.html" afterPath="$PROJECT_DIR$/facility-next.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facility.html" afterPath="$PROJECT_DIR$/facility.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reserve-next.html" afterPath="$PROJECT_DIR$/reserve-next.html" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/c-reserve.css" afterPath="$PROJECT_DIR$/css/c-reserve.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/c-reserve.scss" afterPath="$PROJECT_DIR$/css/c-reserve.scss" />
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +29,52 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
+    <splitter split-orientation="horizontal" split-proportion="0.5185185">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="c-reserve.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/c-reserve.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="165" column="51" lean-forward="true" selection-start-line="165" selection-start-column="51" selection-end-line="165" selection-end-column="51" />
+                  <folding>
+                    <element signature="n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="c-reserve.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/c-reserve.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="336">
+                  <caret line="49" column="23" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="c-reserve.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/c-reserve.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="420">
+                  <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -102,6 +152,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -275,17 +329,30 @@
       <workItem from="1492666631332" duration="500000" />
       <workItem from="1492667353172" duration="17000" />
       <workItem from="1492668124296" duration="205000" />
+<<<<<<< HEAD
       <workItem from="1492670225232" duration="369000" />
+=======
+      <workItem from="1492669157436" duration="766000" />
+      <workItem from="1492670265377" duration="149000" />
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="48016000" />
+=======
+    <option name="totallyTimeSpent" value="48562000" />
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13543192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -639,6 +706,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/c-reserve.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
@@ -648,6 +716,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/c-reserve.css">
+=======
+    <entry file="file://$PROJECT_DIR$/c-active.html">
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-378">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -664,19 +735,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/facility.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="113">
           <caret line="228" column="31" lean-forward="false" selection-start-line="228" selection-start-column="31" selection-end-line="228" selection-end-column="31" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+=======
+        <state relative-caret-position="294">
+          <caret line="176" column="46" lean-forward="false" selection-start-line="176" selection-start-column="46" selection-end-line="176" selection-end-column="46" />
+          <folding />
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/facility-next.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="406">
           <caret line="170" column="51" lean-forward="false" selection-start-line="170" selection-start-column="51" selection-end-line="170" selection-end-column="51" />
+=======
+        <state relative-caret-position="420">
+          <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
           <folding />
         </state>
       </provider>
@@ -691,9 +773,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/facility.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="435">
           <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+=======
+        <state relative-caret-position="336">
+          <caret line="49" column="23" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+>>>>>>> 243b549a939f80f12460024ef81db121c51c8c4c
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c-reserve.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="165" column="51" lean-forward="true" selection-start-line="165" selection-start-column="51" selection-end-line="165" selection-end-column="51" />
+          <folding>
+            <element signature="n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
