@@ -5,13 +5,14 @@ $(function () {
     let choose=$('.c-choose > div');
     let rect=$('.rect-p > div');
     let left=$('.left');
-    rect.click(function () {
+    rect.hover(function () {
         $(this).addClass('first').siblings().removeClass('first');
         choose.addClass('active').eq($(this).index()).removeClass('active');
     });
     left.click(function () {
-        $(this).parent().children().eq(1).toggleClass('active');
+        $(this).parent().children().eq(1).slideToggle();
     });
+    
     $('.click').click(function () {
         $('.con').removeClass('hidden-xs hidden-sm');
     })
@@ -26,7 +27,9 @@ $(function () {
         }
     })
     $(window).triggerHandler('resize');
-
-
-
+    //点击事件
+    $('.img-box').css('cursor','pointer');
+    $('.con').click(function(){
+    	location.href = 'reserve-next.html';
+    });
 })

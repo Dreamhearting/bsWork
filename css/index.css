@@ -173,6 +173,7 @@ p.q-shishang span {
 .q-facility .q-f-box .q-f-sbox {
   width: 100%;
   height: 3.82rem;
+  cursor: pointer;
 }
 
 .q-facility .q-f-box .q-f-sbox .q-f-ssbox {
@@ -242,6 +243,7 @@ p.q-shishang span {
   }
   .q-facility .q-f-box .q-f-sbox {
     height: 2.1rem;
+    cursor: pointer;
   }
   .q-facility .q-f-box .q-f-sbox:nth-child(1) .q-f-ssbox:nth-child(1) {
     background: #fff;
@@ -311,6 +313,7 @@ p.q-shishang span {
   margin: auto;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .q-ban .q-ban1 .q-img img {
@@ -420,6 +423,7 @@ p.q-shishang span {
   box-sizing: border-box;
   padding: 0 .1rem;
   background: #fff;
+  cursor: pointer;
   transition: all .5s;
   border: 1px solid #ccc;
   position: relative;
@@ -508,6 +512,12 @@ p.q-shishang span {
   font-size: .22rem;
   color: #888;
   margin-bottom: .8rem;
+  transition: all .3s;
+}
+
+.q-about-top button:hover {
+  background: #06897c;
+  color: #fff;
 }
 
 .q-about-topn {
@@ -524,7 +534,7 @@ p.q-shishang span {
   margin-bottom: .2rem;
 }
 
-.q-about-topn .q-about-font h3, .q-about-topn .q-about-font h4, .q-about-topn .q-about-font p, .q-about-topn .q-about-font button {
+.q-about-topn .q-about-font h3, .q-about-topn .q-about-font h4, .q-about-topn .q-about-font p {
   margin-left: .1rem;
   color: #fff;
 }
@@ -610,6 +620,7 @@ p.q-shishang span {
 
 .q-c-box .q-input h3 {
   color: #c4cecd;
+  letter-spacing: 10px;
 }
 
 .q-c-box .q-input input {
@@ -617,11 +628,11 @@ p.q-shishang span {
   border: 1px solid #61a69f;
   background: #06897c;
   color: #c4cecd;
-  text-indent: 1em;
   outline: none;
   margin: .4rem 0;
   width: 100%;
   height: .54rem;
+  outline-color: #ccc;
 }
 
 .q-c-box .q-input textarea {
@@ -629,7 +640,6 @@ p.q-shishang span {
   border: 1px solid #61a69f;
   background: #06897c;
   color: #c4cecd;
-  text-indent: 1em;
   outline: none;
   margin: .4rem 0;
   width: 100%;
@@ -643,13 +653,20 @@ p.q-shishang span {
   border: 1px solid #61a69f;
   background: #06897c;
   color: #c4cecd;
-  text-indent: 1em;
   outline: none;
   margin: .4rem 0;
   width: 1.8rem;
   height: .7rem;
   margin: auto;
+  text-indent: 0;
+  letter-spacing: 5px;
   font-size: .18rem;
+  transition: all .3s ease;
+}
+
+.q-c-box .q-input button:hover {
+  background: #fff;
+  color: #06897c;
 }
 
 .q-cB-box {
@@ -681,6 +698,7 @@ p.q-shishang span {
 
 .q-cB-box .q-input h3 {
   color: #c4cecd;
+  letter-spacing: 10px;
 }
 
 .q-cB-box .q-input input {
@@ -688,14 +706,17 @@ p.q-shishang span {
   border: 1px solid #61a69f;
   background: #06897c;
   color: #c4cecd;
-  text-indent: 1em;
   outline: none;
   margin: .4rem 0;
   height: .18rem;
   font-size: .06rem;
   text-indent: 0;
-  margin: .1rem .08rem;
+  margin: .1rem .08rem .01rem;
   box-sizing: border-box;
+}
+
+.q-cB-box .q-input input:nth-child(3) {
+  margin: .1rem .08rem .1rem;
 }
 
 .q-cB-box .q-input textarea {
@@ -703,7 +724,6 @@ p.q-shishang span {
   border: 1px solid #61a69f;
   background: #06897c;
   color: #c4cecd;
-  text-indent: 1em;
   outline: none;
   margin: .4rem 0;
   height: .6rem;
@@ -719,12 +739,12 @@ p.q-shishang span {
   border: 1px solid #61a69f;
   background: #06897c;
   color: #c4cecd;
-  text-indent: 1em;
   outline: none;
   margin: .4rem 0;
   width: .9rem;
   height: .3rem;
   margin: auto;
+  letter-spacing: 5px;
   text-indent: 0;
   font-size: .09rem;
   transition: all .3s ease;
